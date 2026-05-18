@@ -1,12 +1,37 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Usuario\\Downloads\\asdfghjkl\\Tarea 6\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C57C524F-A3ED-4A07-AD7B-4011C80EE983}|Tarea6.vcxproj|C:\\Users\\Usuario\\Downloads\\asdfghjkl\\Tarea 6\\Tarea6.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C57C524F-A3ED-4A07-AD7B-4011C80EE983}|Tarea6.vcxproj|solutionrelative:Tarea6.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Tarea6.cpp",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Downloads\\asdfghjkl\\Tarea 6\\Tarea6.cpp",
+              "RelativeDocumentMoniker": "Tarea6.cpp",
+              "ToolTip": "C:\\Users\\Usuario\\Downloads\\asdfghjkl\\Tarea 6\\Tarea6.cpp",
+              "RelativeToolTip": "Tarea6.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-05-18T09:34:00.917Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
