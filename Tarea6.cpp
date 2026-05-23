@@ -119,12 +119,13 @@ int main() {
                 list.append(rand() % 100000);
             }
 
+            if (listSize <= 20) {
 
+                cout << "Original list: ";
 
-           cout << "Original list: ";
+                list.print();
 
-           list.print();
-			
+            }  
 
             clock_t start = clock();
 
@@ -133,14 +134,13 @@ int main() {
             clock_t end = clock();
 
 			double seconds = double(end - start) / CLOCKS_PER_SEC;
+       
+            if (listSize <= 20) {
 
-            
+                cout << "Sorted list: ";
 
-            cout << "Sorted list: ";
-
-            list.print();
-
-            
+                list.print();
+            }         
 
 			cout << "Sorted " << listSize << " elements in " << seconds << " seconds." << endl;
 
