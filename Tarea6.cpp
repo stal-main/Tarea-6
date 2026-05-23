@@ -8,6 +8,9 @@ using std::endl;
 using std::cin;
 
 int getMax(LinkedList<int>& list) {
+
+    list.goToStart();
+
     int max = 0;
 
     list.goToStart();
@@ -39,9 +42,9 @@ void radixSort(LinkedList<int>& list, int base) {
 
     while (tempMax >= base) {
 
-        tempMax /= base;
-
         numPass++;
+
+        tempMax /= base;
 	}
 
     LinkedList<int>* buckets = new LinkedList<int>[base];
@@ -60,6 +63,8 @@ void radixSort(LinkedList<int>& list, int base) {
 
             list.next();
         }
+
+		list.clear();
 
         for (int i = 0; i < base; i++) {
 
@@ -143,6 +148,12 @@ int main() {
         }
 
 		cout << "Do you want to sort another list? (y/n)" << endl;
+
+		char response;
+
+		cin >> response;
+
+		continuate = (response == 'y' || response == 'Y');
     }
 
     return 0;
