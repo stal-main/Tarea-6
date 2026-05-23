@@ -1,6 +1,7 @@
 
 #include <iostream>
 #include <cstdlib>
+#include <time.h>
 #include"LinkedList.h"    
 
 using std::cout;
@@ -12,8 +13,6 @@ int getMax(LinkedList<int>& list) {
     list.goToStart();
 
     int max = 0;
-
-    list.goToStart();
 
     while (!list.atEnd()) {
 
